@@ -1,0 +1,47 @@
+#container-hedr {
+  background-color: #06215b;
+}
+
+#star-left {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#small-head {
+  background-color: rgb(183, 220, 242);
+  height: 50px;
+}
+.h1 {
+  color: rgba(255, 212, 68, 1);
+  font-family: "Fruktur", system-ui;
+  font-weight: 040;
+  font-style: normal;
+}
+
+.fruktur-regular {
+  font-family: "Fruktur", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fruktur-regular-italic {
+  font-family: "Fruktur", system-ui;
+  font-weight: 400;
+  font-style: italic;
+}
+.btn-primary {
+  background-color: #f3f3f4;
+  color: #020202;
+  border-color: #020202;
+  border: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: "Fruktur", system-ui;
+  font-weight: 040;
+  font-style: normal;
+}
