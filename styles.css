@@ -2,6 +2,14 @@
   background-color: #06215b;
 }
 
+#small-star-left {
+  position: absolute;
+  left: 0;
+  top: 50;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
 #star-left {
   position: absolute;
   left: 0;
@@ -10,7 +18,15 @@
   margin-top: 10px;
 }
 
-#small-head {
+#star-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.navbar {
   background-color: rgb(183, 220, 242);
   height: 50px;
 }
@@ -32,8 +48,7 @@
   font-weight: 400;
   font-style: italic;
 }
-.btn-primary {
-  background-color: #f3f3f4;
+.nav-item {
   color: #020202;
   border-color: #020202;
   border: none;
@@ -44,4 +59,24 @@
   font-family: "Fruktur", system-ui;
   font-weight: 040;
   font-style: normal;
+}
+
+.nav-item:hover {
+  background-color: #081125;
+  color: #f3f3f4;
+  border-color: #f3f3f4;
+}
+#page-title {
+  text-align: center;
+}
+
+#trending-news {
+  background-color: #f4f0b2;
+
+  padding: 20px;
+  text-align: center;
+}
+
+.card {
+  border-color: white;
 }
